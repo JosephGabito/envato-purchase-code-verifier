@@ -1,4 +1,4 @@
-<h1>Envato Purchase Code Verifier</h1>
+<h1>:anchor: Envato Purchase Code Verifier</h1>
 <p>
 	Clone, download, or copy the 'EnvatoPurchaseCodeVerifier' nifty class to create your own Envato purchase verifier tool. You can go to index.php to see sample code. Read EnvatoPurchaseCodeVerifier.php to understand what the class is all about. It's really simple. 
 </p>
