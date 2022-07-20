@@ -7,19 +7,27 @@ Clone, download, or copy the 'EnvatoPurchaseCodeVerifier' class to create your o
 </p>
 <hr>
 <ol>
-<li>Require the class file: 
+<li>
+
+Require the class file: 
+	
 <pre>
 require_once 'EnvatoPurchaseCodeVerifier.php';
 </pre>
 </li>
 	
-<li>Use the code below to create an instance of 'EnvatoPurchaseCodeVerifier'. Create your own access token at: https://build.envato.com/create-token 
+<li>
+	
+Use the code below to create an instance of 'EnvatoPurchaseCodeVerifier'. Create your own access token at: https://build.envato.com/create-token 
+
 <pre>
 $purchase = new EnvatoPurchaseCodeVerifier($access_token);
 </pre>
 </li>	
 <li>
+
 Then, check the user purchase code:
+
 <pre>
 $verified = $purchase->verified($buyer_purchase_code);
 // Will return false if purchase code is invalid, otherwise the purchase data.
